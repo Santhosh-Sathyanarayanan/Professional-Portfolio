@@ -436,7 +436,7 @@
       <li><a href="#awards">Awards</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <a href="/cdn-cgi/l/email-protection#cebdafa0baa6a1bda6e0bda6afa0aca1bba9abf7f98ea9a3afa7a2e0ada1a3" class="nav-cta">Hire Me</a>
+    <a href="mailto:santhosh.shanbouge97@gmail.com" class="nav-cta">Hire Me</a>
   </nav>
 
   <!-- HERO -->
@@ -576,10 +576,11 @@
         <div class="timeline-company">Leading Telecom Service Provider, USA · Playwright(Typescript)</div>
         <p class="timeline-desc">Currently leading a large-scale migration from Selenium(Cucumber BDD-Java) to Playwright (Typescript) using MCP agents. Achieved ~70% reduction in test execution time while significantly improving efficiency. Leveraging GitHub Copilot to accelerate development, enabling a small team to deliver output comparable to a much larger team</p>
       </div>
+	  
       <div class="timeline-item reveal">
         <div class="timeline-top">
           <span class="timeline-role">Senior SDET / Technical Test Lead</span>
-          <span class="timeline-period">Feb 2024 – Present</span>
+          <span class="timeline-period">Feb 2024 – Feb 2026</span>
         </div>
         <div class="timeline-company">Leading Telecom Service Provider, USA · Cucumber Framework (Java)</div>
         <p class="timeline-desc">Architected and enhanced automation frameworks integrating QTest with Selenium, building automated reporting pipelines that reduced manual reporting efforts by over 60%. Collaborated with development teams to improve test reliability and reduce flaky test behavior.</p>
@@ -689,8 +690,8 @@
           Whether you're looking for a seasoned test automation expert, a framework architect, or someone who can bridge QA and DevOps — let's talk!
         </p>
         <div class="contact-links">
-          <a href="/cdn-cgi/l/email-protection#493a28273d21263a21673a2128272b263c2e2c707e092e24282025672a2624" class="contact-link">
-            <span>📧</span> <span class="__cf_email__" data-cfemail="16657778627e79657e38657e777874796371732f2156717b777f7a3875797b">[email&#160;protected]</span>
+          <a href="mailto:santhosh.shanbouge97@gmail.com" class="contact-link">
+            <span>📧</span> santhosh.shanbouge97@gmail.com
           </a>
           <a href="https://linkedin.com" target="_blank" class="contact-link">
             <span>💼</span> LinkedIn Profile
@@ -712,7 +713,7 @@
 
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   // Hamburger toggle
   const hamburger = document.getElementById('hamburger');
   const navLinks  = document.getElementById('nav-links');
@@ -740,4 +741,13 @@
       }
     });
   }, { threshold: 0.5 });
-  bars.forEach(b => { const w = b.style.width; b.style.width =
+  bars.forEach(b => { const w = b.style.width; b.style.width = '0'; setTimeout(() => b.style.width = w, 300); barObserver.observe(b); });
+
+  // Nav highlight on scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').style.background =
+      window.scrollY > 50 ? 'rgba(5,13,26,0.92)' : 'rgba(5,13,26,0.7)';
+  });
+</script>
+</body>
+</html>
